@@ -1,6 +1,7 @@
 import math
 
 print("****CALCULADORA****")
+
 while True:
     o = input('"s" para sumar, "r" para restar, "d" para dividir, m "para multiplicar o "rc" para raiz cuadrada: ')
 
