@@ -6,3 +6,4 @@ while True:
         segundos = int((tiempo % 3600) % 60)
         print("Minutos: " + str(minutos))
         print("Segundos: " + str(segundos))
+
