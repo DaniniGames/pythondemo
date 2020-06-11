@@ -1,7 +1,7 @@
 print ("*****CÁLCULO IMC*****")
 
-peso_belico = float(input ("Introduce tu peso (KG): "))
-altura_belica = float(input ("Introduce tu altura (M): "))
+peso_belico = float(input ("Introduce tu peso (kg): "))
+altura_belica = float(input ("Introduce tu altura (m): "))
 
 imc = peso_belico / altura_belica ** 2
 imc_belico = round(imc, 2)
