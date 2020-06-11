@@ -4,9 +4,11 @@ adivinanza = random.randrange(1,10)
 
 entrada = int(input("Adivina el número entre 1 y 10: "))
 
-if entrada == adivinanza:
-    print("Bien.")
-elif entrada > adivinanza:
-    print("Es menor.")
-else:
-    print("Es mayor.")
+while entrada != adivinanza:
+	if entrada > adivinanza:
+		print("El número a adivinar es menor.")
+	else:
+		print("El número a adivinar es mayor.")
+	entrada = int(input("Adivina el número entre 1 y 10: "))
+
+print("Bien.")
