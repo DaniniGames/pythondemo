@@ -14,3 +14,4 @@ if apetece == True and eco == True and tienda == True:
 	print("Disfrútalo.")
 else:
 	print("No puedes disfrutarlo.")
+	
